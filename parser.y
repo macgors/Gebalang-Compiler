@@ -1,5 +1,5 @@
+// COPYRIGTH Maciej Górski, 244991
 %{
-
 // #include "compiler.hpp"
 #include <string>
 #include <iostream>
