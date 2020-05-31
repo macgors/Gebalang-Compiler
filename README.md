@@ -19,7 +19,7 @@ Writen with C++, bison & yacc.*
 
 The virtual machine only contains a handfull of instructions, so the wheel had to be reinvented (ex. fast (O(log n)) multiplication).
 
-Consult docs.pdf for more informations about the virtual machine & language. To build the project, use the Makefiles provided
+Consult docs.pdf for more informations about the virtual machine & language. To build the project, use the Makefiles provided.
 
 tic_tac_toe.imp contains an example of a program written in Gembalang.
 
