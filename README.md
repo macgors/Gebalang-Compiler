@@ -49,4 +49,4 @@ BEGIN
 END
 ```
 
-* Well, more C than C++ actually.
+\* Well, more C than C++ actually.
