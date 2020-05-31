@@ -19,8 +19,6 @@ Writen with C++, bison & yacc.*
 
 The virtual machine only contains a handfull of instructions, so the wheel had to be reinvented (ex. fast (O(log n)) multiplication).
 
-The code was never ment to be seen or tuched by anyone but me and the vast majorty of things happen in a single file. I'm still proud of it. 
-
 Consult docs.pdf for more informations about the virtual machine & language. To build the project, use the Makefiles provided
 
 tic_tac_toe.imp contains an example of a program written in Gembalang.
@@ -50,3 +48,6 @@ END
 ```
 
 \* Well, more C than C++ actually.
+
+PS 
+The code was never ment to be seen or tuched by anyone but me (or even ever retuched by me after complition)) and the vast majorty of things happen in a single file. I'm still proud of it. I know, I know...
