@@ -28,14 +28,14 @@ This is how you'd implement the sieve of Eratosthenes in Gebalang:
 ```
 [ sieve of Eratosthenes ]
 DECLARE
-    n, j, sito(2:100)
+    n, j, sieve(2:100)
 BEGIN
     n ASSIGN 100;
     FOR i FROM n DOWNTO 2 DO
         sieve(i) ASSIGN 1;
     ENDFOR
     FOR i FROM 2 TO n DO
-        IF sito(i) NEQ 0 THEN
+        IF sieve(i) NEQ 0 THEN
             j ASSIGN i PLUS i;
             WHILE j LEQ n DO
                 sieve(j) ASSIGN 0;
@@ -50,4 +50,4 @@ END
 \* Well, more C than C++ actually.
 
 PS 
-The code was never ment to be seen or touched by anyone but me (or even ever retuched by me after complition)) and the vast majorty of things happen in a single file. I'm still proud of it. I know, I know...
+The code was never ment to be seen or touched by anyone but me (or even ever retuched by me after completion) and the vast majorty of things happen in a single file. I'm still proud of it. I know, I know...
